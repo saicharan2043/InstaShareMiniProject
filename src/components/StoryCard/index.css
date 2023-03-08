@@ -1,0 +1,23 @@
+.story-list-card {
+  width: 81px;
+  height: 81px;
+  margin-right: 32px;
+  align-self: center;
+  border-radius: 90px;
+  border: 1px solid #dbdbdb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .story-list-card {
+    margin-right: 24px;
+  }
+}
+
+.story-img {
+  height: 65px;
+  width: 65px;
+  border-radius: 90px;
+}

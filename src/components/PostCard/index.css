@@ -1,0 +1,26 @@
+.list-post-card {
+  list-style: none;
+  margin: 0px;
+  margin-right: 20px;
+  margin-bottom: 24px;
+  padding: 0px;
+}
+
+.post-img-profile {
+  width: 330px;
+  height: 330px;
+  border-radius: 2px;
+}
+
+@media (max-width: 767px) {
+  .list-post-card {
+    margin-right: 3px;
+    margin-left: 7px;
+    margin-bottom: 3px;
+  }
+
+  .post-img-profile {
+    width: 118px;
+    height: 118px;
+  }
+}

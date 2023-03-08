@@ -1,0 +1,129 @@
+.profile-container {
+  width: 1040px;
+  display: flex;
+  background-color: #ffffff;
+  margin-right: 200px;
+  margin-left: 200px;
+  margin-bottom: 60px;
+  margin-top: 55px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  .profile-container {
+    width: 95%;
+    margin-right: 0px;
+    margin-left: 15px;
+    margin-bottom: 24px;
+  }
+}
+
+.profile-dp {
+  height: 180px;
+  width: 180px;
+  border-radius: 90px;
+  margin-right: 64px;
+  align-self: center;
+  display: block;
+}
+@media (max-width: 767px) {
+  .profile-dp {
+    display: none;
+  }
+}
+
+.profile-dp-sm {
+  height: 96px;
+  width: 96px;
+  margin-right: 24px;
+  align-self: center;
+  display: none;
+  border-radius: 48px;
+}
+
+@media (max-width: 767px) {
+  .profile-dp-sm {
+    display: block;
+  }
+}
+
+.profile-details-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+
+.user-name {
+  font-family: Roboto;
+  font-size: 32px;
+  margin: 0px;
+  margin-bottom: 24px;
+  color: #262626;
+  font-weight: 300;
+  align-self: flex-start;
+}
+
+@media (max-width: 767px) {
+  .user-name {
+    font-size: 18px;
+  }
+}
+
+.followers-super-container {
+  display: flex;
+  margin: 0px;
+  margin-bottom: 20px;
+  padding: 0px;
+  align-self: flex-start;
+}
+
+.followers-sub-container {
+  display: flex;
+  margin-right: 48px;
+  align-self: center;
+}
+
+@media (max-width: 767px) {
+  .followers-sub-container {
+    flex-direction: column;
+    margin-right: 24px;
+  }
+}
+
+.follower-text {
+  font-family: Roboto;
+  font-size: 16px;
+  color: #262626;
+  margin: 0px;
+  margin-right: 8px;
+  font-weight: 500;
+  align-self: center;
+}
+
+@media (max-width: 767px) {
+  .follower-text {
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+}
+
+.name-text {
+  font-family: Roboto;
+  font-size: 16px;
+  color: #262626;
+  font-weight: 500;
+  margin: 0px;
+  margin-bottom: 20px;
+  align-self: flex-start;
+}
+
+.discription {
+  font-family: Roboto;
+  font-size: 16px;
+  color: #262626;
+  line-height: 24px;
+  align-self: flex-start;
+  margin: 0px;
+  line-height: 24px;
+}

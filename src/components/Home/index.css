@@ -1,0 +1,149 @@
+.un-order-list-story {
+  margin: 48px;
+  margin-left: 204px;
+  margin-right: 204px;
+  width: 1040px;
+  display: block;
+}
+@media (max-width: 767px) {
+  .un-order-list-story {
+    display: none;
+  }
+}
+
+.un-order-list-story-sm {
+  margin: 20px;
+  width: 80%;
+  max-width: 1100px;
+  margin-right: 0px;
+  margin-right: 0px;
+  margin-left: 35px;
+  display: none;
+  padding: 0px;
+}
+
+@media (max-width: 767px) {
+  .un-order-list-story-sm {
+    display: block;
+  }
+}
+
+.loader-of-story {
+  width: 1040px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 48px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  .loader-of-story {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+.hr-line {
+  border: 0.5px solid #c6c6c8;
+  width: 100%;
+  margin-right: 0px;
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .hr-line {
+    display: block;
+  }
+}
+
+.un-order-list-posts {
+  width: 1040px;
+  margin-right: 200px;
+  margin-left: 200px;
+  padding: 0px;
+}
+
+@media (max-width: 767px) {
+  .un-order-list-posts {
+    width: 100%;
+    margin: 0px;
+    margin-right: 0px;
+  }
+}
+
+.loader-of-post {
+  height: 600px;
+  width: 1040px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 100px;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px 4px 0px 0px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .loader-of-post {
+    width: 100%;
+    border-width: 0px;
+    border-radius: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 600px;
+  }
+}
+
+.alert-icon {
+  width: 44px;
+  height: 38px;
+  color: #4094ef;
+  margin-bottom: 22px;
+  align-self: center;
+}
+
+.error-text {
+  font-family: Roboto;
+  font-size: 16px;
+  color: #262626;
+  text-align: center;
+}
+
+.retry-error-btn {
+  width: 86px;
+  height: 32px;
+  background-color: #4094ef;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: 500;
+  align-self: center;
+  border-width: 0px;
+  align-self: center;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.story-failure {
+  height: 150px;
+  margin-bottom: 15px;
+}
+
+.story-heading {
+  font-size: 20px;
+}
